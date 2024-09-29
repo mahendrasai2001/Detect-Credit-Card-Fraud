@@ -15,7 +15,7 @@ The dataset contains two days of credit card transactions by European cardholder
 1. **Data Loading**: We load a dataset of over 284,000 transactions, each labeled as legitimate or fraudulent.
 2. **Exploratory Data Analysis (EDA)**: Basic analysis is performed to understand the structure of the data, identify missing values, and analyze patterns in fraud versus legitimate transactions.
 3. **Data Cleaning**: Missing values and outliers are handled (though the dataset we use is clean).
-4. **Dealing with Imbalanced Data**: Since fraud cases are rare, we use methods like **undersampling** (reducing normal transactions) and **SMOTE** (synthetic oversampling) to balance the dataset.
+4. **Dealing with Imbalanced Data**: Since fraud cases are rare, we used both undersampling (reducing normal transactions) and oversampling (SMOTE), with oversampling ultimately balancing the dataset effectively.
 5. **Feature Engineering**: We transform certain features, like scaling the transaction amount, to make them suitable for machine learning models.
 6. **Model Training**: Several models are trained, including:
    - Logistic Regression
